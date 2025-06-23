@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lenguajes</title>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header>
+  <h1>Mi Tienda Virtual</h1>
+  <nav>
+    <ul>
+      <li><a href="Lenguajes Populares"></a></li>
+      
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section class="galeria">
+    <figure>
+      <img src="img/descarga.jpeg" alt="JavaScript">
+      <figcaption>JavaScript</figcaption>
+      <button class="agregar-carrito" data-nombre="JavaScript" data-precio="10">Agregar al carrito</button>
+    </figure>
+
+    <figure>
+      <img src="img/descarga (1).jpeg" alt="Python">
+      <figcaption>Python</figcaption>
+      <button class="agregar-carrito" data-nombre="Python" data-precio="12">Agregar al carrito</button>
+    </figure>
+    
+    <figure>
+      <img src="img/2305919.png" alt="PHP">
+      <figcaption>PHP</figcaption>
+      <button class="agregar-carrito" data-nombre="PHP" data-precio="12">Agregar al carrito</button>
+    </figure>
+    <figure>
+      <img src="img/descarga.png" alt="HTML">
+      <figcaption>HTML</figcaption>
+      <button class="agregar-carrito" data-nombre="HTML" data-precio="12">Agregar al carrito</button>
+    </figure>
+  </section>
+<div id="datos-cliente">
+  <label for="cliente">Nombre del cliente:</label>
+  <input type="text" id="cliente" placeholder="Ingresa tu nombre" />
+</div>
+  <div id="carrito">
+  <h2>Carrito de Compras</h2>
+  <ul id="items-carrito"></ul>
+  <p>Total: $<span id="total">0.00</span></p>
+  <button id="finalizar-compra">Finalizar compra</button>
+</div>
+</main>
+<footer class="contacto">
+  <h2>Contáctanos</h2>
+  <div class="redes-sociales">
+    <a href="https://facebook.com/TU_USUARIO" target="_blank" title="Facebook">
+      <i class="fab fa-facebook"></i>
+    </a>
+    <a href="https://wa.me/1234567890" target="_blank" title="WhatsApp">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+    <a href="https://instagram.com/TU_USUARIO" target="_blank" title="Instagram">
+      <i class="fab fa-instagram"></i>
+    </a>
+  </div>
+</footer>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+   <script src="script.js"></script>
+</html>
